@@ -1,0 +1,10 @@
+#为了保证路由的优先顺序，使用YAML文件来配置，以实现有序的路由规则
+#优先选择api-hello-ext路由进行匹配
+#zuul:
+#  routes:
+#    api-hello-ext:
+#      path: /api-hello/ext/**
+#      service-id: api-hello-ext
+#    api-hello：
+#      path: /api-hello/**
+#      service-id: demo-hello
